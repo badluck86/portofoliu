@@ -1,0 +1,20 @@
+.this-project-is-hell {
+    background-color: #1f2937;
+    color: #f9faf8;
+    size: 48px;
+    font-weight: bold;
+}
+#logo {
+    size: 24px
+}
+#h3 {
+    color: #e5e7eb;
+    size: 18px;
+}
+/*
+.btn {
+    background-color: orangered var(--swift-button-primary-background-color);
+    border: .0833rem solid white var(--swift-button-primary-border-color);
+    color: white var(--swift-button-primary-foreground-color);
+}
+*/
