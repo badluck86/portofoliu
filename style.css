@@ -1,11 +1,32 @@
 .this-project-is-hell {
+    
     background-color: #1f2937;
     color: #f9faf8;
     size: 48px;
     font-weight: bold;
 }
-#logo {
-    size: 24px
+.title {
+    display: flex;
+    justify-content: space-around;
+
+}
+.design_by_mcp {
+    width:200px;
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    border:1px red solid;
+  }
+.logo.btn {
+    size: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.btn {
+    background-color:  #f17428 ;
 }
 #h3 {
     color: #e5e7eb;
