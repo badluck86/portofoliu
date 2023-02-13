@@ -5,26 +5,19 @@
     size: 48px;
     font-weight: bold;
 }
-.title {
-    display: flex;
-    justify-content: space-around;
-
+#links{
+    float: right;
 }
-.design_by_mcp {
-    width:200px;
+.logo {
+    
     display:inline-block;
     overflow: auto;
     white-space: nowrap;
     margin:0px auto;
     border:1px red solid;
+    
   }
-.logo.btn {
-    size: 24px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
+
 .btn {
     background-color:  #f17428 ;
 }
