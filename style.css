@@ -1,25 +1,64 @@
-.this-project-is-hell {
+* {
+    font-family: 'Roboto', sans-serif;
+    }
+html, body {
     
+    margin:0;
+    padding: 0;
+}
+#links{
+    display: block;
+    float: right;
+    background-color: #010353;
+    border: none;
+    border-radius: 45px;
+    color:#f5efeb;
+    padding:10px;
+    margin: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+.this-project-is-hell{
     background-color: #1f2937;
     color: #f9faf8;
     size: 48px;
     font-weight: bold;
 }
-#links{
-    float: right;
+.hero-main {
+    background-color: #1f2937;
+    color: #f9faf8;
+    size: 48px;
+    font-weight: bold;
+    display:block;
+    float:left;
+    padding: 100px;
+    border: none;
+
 }
-.logo {
-    
-    display:inline-block;
-    overflow: auto;
-    white-space: nowrap;
-    margin:0px auto;
-    border:1px red solid;
-    
-  }
 
 .btn {
     background-color:  #f17428 ;
+    border: none;
+    border-radius: 45px;
+    color:#f5efeb;
+    padding:10px;
+    margin: 15px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+
+#links:hover{
+    background-color: orangered;
+    color:white;
+}
+
+.btn.h2.p{
+    display: block;
+    float: left;
 }
 #h3 {
     color: #e5e7eb;
