@@ -1,39 +1,72 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"  content="width=device-width, initial-scale=1">
         <title> Design by MCP </title>
+        <!--I wanted to use Roboto font and this is the way I found it easy to implement it into my project-->
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        
     </head>
     <body>
         <div class="this-project-is-hell">
-            <div >
-                <button class="logo" ><img src="../portofoliu/images/mcp.png" width="60px" height="60px" ></button>
-                    <div id="links">
-                        <button>link one</button>
-                        <button>link two</button>
-                        <button>link three</button>
-                    </div>
-            </div>
-            <div class="Hero-main">
-                <!--Here will be title / description / image / button-->
-                <p>This project was hell</p>
-                <button class="btn " href="sign up">
-                    <span class="d-flex align-items-center gap-1 flex-row"> Sign Up</span>
+                   <img src="../portofoliu/images/mcp.png" width="60px" height="60px" >
+                    <button id="links" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">You Tube</button>
+                    <button id="links">link two</button>
+                    <button id="links">link three</button>
+            <div class="hero-main">
+                <h2 style="font-weight: bolder; color: #f9faf8; font-size: 48px;">This project was hell</h2>
+                    <p><img src="../portofoliu/images/AdobeStock_280876199.jpeg" style="float:right;padding-left: 0.01%; width: auto; height: auto;"> 
+                    I am a reconverted front end developer. Before this I was a man of many trades,
+                     but in all of my adventures I valued and respected the job. It is a new journey,
+                      a new challenge . I am eager to find, and learn new things . I chose this area
+                    because I was always passionate about technology , but life, opportunities and bad
+                     luck(in other cases) made it difficult to get me to learn to code. I chose front
+                      end at the moment because I like the beautiful part of programing, the part that
+                       makes things look nice </p>
+                <button class="btn" href="sign up">
+                    <span class="btn"> Sign Up</span>
                 </button>
             </div>
         </div>
 
         <div class="Some-random-information">
-            <!--Here will be 4 images with description under them-->
-        </div>
-
+            <p style="font-weight:bold; font-size:36px ; color: #1f2936; margin: auto;">Some random information
+            <div class="hackerman";>
+                <figure>
+                    <img src="../portofoliu/images/hackerman1.jpeg" style="height: 200px; width: 200px;">
+                    <figcaption>Me after 1 week learning HTML</figcaption>
+                </figure>    
+                <figure>
+                    <img src="../portofoliu/images/hackerman2.jpeg" style="height: 200px; width: 200px;">
+                    <figcaption>Me after 2 weeks learning HTML+CSS</figcaption>
+                </figure>
+                <figure>
+                    <img src="../portofoliu/images/hackerman3.jpeg" style="height: 200px; width: 200px;">
+                    <figcaption>Me after breaking the Matrix</figcaption>
+                </figure>
+                <figure>
+                    <img src="../portofoliu/images/hackerman4.jpeg" style="height: 200px; width: 200px;">
+                    <figcaption>Me after my first trip in Eastern Asia</figcaption>
+                </figure>
+            </p>
+        </div>   
         <div class="inspiration-quote">
-            <!--Inspiration quote or testimonial from a customer <span></span>-->
+            "There is nothing outside of yourself that can ever enable to get better, stronger, richer, quicker or smarter. Everything is within. Everything exists. Seek nothing outside of yourself" 
+            -Miyamoto Musashi, Japanese swordsman , philosopher, strategist, writer and ronin-
         </div>
-
-        <div class="call-for-action-time">
-            <!--Sign up for product by clicking the button-->
-        </div>
+        <footer class="call-for-action-time">
+            <div class="chenar">
+                <strong style="color: #f9faf8";>Send an email for business</strong>
+                <button class="btn">
+                    <!--here I wanted to put a button that will send an email but the solution that I found 
+                    to best me was the <a>tags-->
+                    </a href="mailto:m.c.paduraru86@gmail.com">Send email</a></button>
+            </div>    
+                
+            
+        </footer>
     </body>
 </html>
